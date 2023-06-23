@@ -5,6 +5,8 @@ const path = require('path');
 // const mongoose = require('mongoose');
 // mongoose.connect("mongodb://admin:pass123@localhost:6000/ead", { useNewUrlParser: true });
 
+//Trying Git Branching new version
+
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost:27017', {dbName: 'ead'})
