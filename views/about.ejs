@@ -1,0 +1,9 @@
+<%-include("header")%>
+    <%-include("navbar") %>
+    <h1>About</h1>
+    <ul>
+        <% for(var i=0; i<products.length; i++) { %>
+            <li> <%=products[i].name %> - <%=products[i].price %></li>
+        <% }%>
+    </ul>
+<%-include("footer")%>
